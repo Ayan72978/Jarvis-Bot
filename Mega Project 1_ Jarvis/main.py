@@ -12,7 +12,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
-newsapi = "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"
+newsapi = "YOUR API KEY"
 
 def speak_old(text):
     engine.say(text)
@@ -113,4 +113,5 @@ if __name__ == "__main__":
 
 
         except Exception as e:
+
             print("Error; {0}".format(e))
